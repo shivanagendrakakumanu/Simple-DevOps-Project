@@ -66,10 +66,12 @@ You can follow same procedure in the official  AWS document [Getting started wit
    #### Deploying Nginx pods on Kubernetes
 1. Deploying Nginx Container
     ```sh
+    kubectl get all (displays available services)
     kubectl create deployment  demo-nginx --image=nginx --replicas=2 --port=80
     # kubectl deployment regapp --image=valaxy/regapp --replicas=2 --port=8080
-    kubectl get all
     kubectl get pod
+    kubectl get deploy (gives list of deployments)
+    kubectl get replicaset (gives number of replicaset)   
    ```
 
 1. Expose the deployment as service. This will create an ELB in front of those 2 containers and allow us to publicly access them.
