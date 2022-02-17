@@ -4,7 +4,7 @@ You can follow same procedure in the official  AWS document [Getting started wit
 
 #### Pre-requisites: 
   - an EC2 Instance 
-  - Install AWSCLI latest verison 
+  - Install AWSCLI latest verison : https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 
 1. Setup kubectl   
    a. Download kubectl version 1.21  
