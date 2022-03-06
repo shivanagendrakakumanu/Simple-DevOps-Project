@@ -1,0 +1,76 @@
+#!/bin/bash
+sudo su -
+yum update -y
+yum install httpd -y
+cd /var/www/html
+echo “MyGoogle” > index.html
+service httpd start
+chkconfig httpd on
+
+
+AWS
+Elastic Compute Cloud
+-	ports ssh22, http80, https443
+-	used default vpc and subnets, opened http ports in security group
+-	using pem key to access Ec2 instance(putty-puttygen or powershell or mobaxterm)
+-	create website by installing package httpd server
+Elastic Block Storage
+-	two type of volume: Object(store files) and Block(os or db) storage
+-	 5 types of EBS:  ST1 and SC1 are used only for storage, GP2, IO1, Standard can used for boot or storage  
+Status Check
+-	instance and system status check
+-	1/2 means system is succeeded but instance failed(reboot instance), 0/2  means both are failed(stop instance and start again)
+Simple Storage Service
+-	object based storage(like google drive) where bucket names must be unique and each bucket can contain objects(files). It has 6 types of storage.
+-	must know features Static Website, Versioning, Encryption, Access Control List, Bucket Policy, Transfer Acceleration(edge location), Life Cycle Management, Cross Region Replication
+Identity Access Management
+-	manage of level of access to AWS based on Users, Groups, Policies/Permissions, Roles(cli)
+Load Balancer
+-	
+AutoScaling
+-	
+Elastic Load Balancer
+-	
+-	
+Virtual Private Cloud
+-	Networking
+-	Classes of IP
+-	Subnet(public and private)
+-	CIDR
+-	Subnet Mask
+-	Elastic IP
+-	Internet GateWay
+-	Route Table
+-	Bastian/Jump
+-	NAT GateWay
+-	NACL
+-	InBoud and OutBound
+-	StateFul and Stateless
+-	Ephemeral Ports
+-	Rules
+-	VPC Peering
+-	Transitive Peering
+-	VPC Flow logs
+Elastic File System
+-	similar to EBS but available only in linux. share volume to multiple instances by mount and mount point by only available at AZs level not across regions.
+Cloud Watch
+-	monitoring tool to monitor disk, cpu percent…. Create Dashboard & billing alarm etc
+Simple Notification Service
+-	topic(group) and subscriber(member email) to send notifications. 
+-	it's a push based delivery system, ex: integrate in Auto Scaling it will send email
+Route 53
+-	can create DNS for servers and be used for failover at regional level.
+-	Health Check, Alarms, Notifications
+-	policies distributed the traffic between regions; 5 types are Simple, Weighted, Latency, FailOver, GeoLocation; default policy is Simple
+Relational DataBase Service(half practical)
+-	it is SQL service, and used for taking backup auto/manual snapshot
+-	multiAZ will do synchronised replication during failover db maintenance/instance failure/AZ failure. it will automatically switch to standby db on another AZ
+-	readIntensiveLoad will have only 5ReadReplications of 1 DB, those are only used for read purpose where asynchronous replication is done. 
+Elastic Cache(no-practical)
+-	inMemoryCache used to retrieve info faster, rather than making requests to the server and it is temporary storage. used for read heavy requests.
+Simple Queue Service(no-practical)
+-	queue system used to store messages(requests) and the application server will process them. It's pull based. Decouple and Long Polling
+-	VisibilityTimeOut will take care if msg is processed or not messages are stored in Standard Queue or FirstInFirstOut order.
+Simple Email Service(no-practical)
+-	used to send and receive email for marketing, notification,and transactional email
+
