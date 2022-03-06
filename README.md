@@ -11,6 +11,10 @@
     - to serve a angular application
     - create a DB
 
+[![Image](aws.jpg "AWS Project 1")] <br><br>
+[![Image](devops1.jpg "DevOps Project 1")] <br><br>
+[![Image](devops2.jpg "DevOps Project 2")] <br><br>
+
 ## Project - an hello world code to be build with java via jenkins    
   - Install git `yum install git -y`  
   - Install Jenkins, choose redhat: https://pkg.jenkins.io/redhat-stable/
@@ -44,12 +48,29 @@
   - Now under bin dir do> `./shutdown.sh and ./startup.sh`
   - In jenkins under Manage Credential > Jenkins > Global credentials > Add Credentials of **admin** which we mentioned in tomcat-sers.xml
   - In jenkins create a new build job under post build action choose> **Deploy war/ear to a container** and provide the tomcat instance ip url.
+--------------------------
+Jenkins should need access to the tomcat server to deploy build artifacts. setup credentials to enable this process. use credentials option on Jenkins home page.
+
+- setup credentials
+  - `credentials` > `jenkins` > `Global credentials` > `add credentials`
+    - Username	: `deployer`
+    - Password : `deployer`
+    - id      :  `deployer`
+    - Description: `user to deploy on tomcat vm`
+
+   - *Post-build Actions*
+   - Deploy war/ear to container
+      - WAR/EAR files : `**/*.war`
+      - Containers : `Tomcat 8.x`
+         - Credentials: `deployer` (user created on above)
+         - Tomcat URL : `http://<PUBLIC_IP>:8080`
+--------------------------
   - **Verify** in tomcat instance for webapp.war file, under /opt/tomcat/webapps. Now open the url to check java app.
   - (X) https://devops4solutions.com/installation-of-tomcat-on-aws-ec2-linux-integration-with-jenkins/
 
 ## Project - with Docker  
+*Jenkins Job name:* `Deploy_on_Tomcat_Server`
   - https://forums.docker.com/t/tomcat-give-error-404/95130/2
-6.	
 
 
 
@@ -57,6 +78,39 @@
 
 
 
+
+
+
+URLS:
+
+1.	https://thenucleargeeks.com/2019/12/12/install-java-on-aws-ec2-instance/
+2.	https://maven.apache.org/install.html
+3.	https://www.jenkins.io/doc/book/installing/linux/
+4.	https://blog.cloudthat.com/how-to-install-ansible-on-rhel-8/
+5.	https://devops4solutions.com/installation-of-tomcat-on-aws-ec2-linux-integration-with-jenkins/
+6.	https://nozaki.me/roller/kyle/entry/articles-jenkins-sshdeploy
+7.	https://linuxtechlab.com/how-to-easily-add-ssh-credentials-on-jenkins-server/
+8.	
+9.	https://www.tecmint.com/run-sudo-command-without-password-linux/
+10.	https://www.e2enetworks.com/help/knowledge-base/how-to-enable-disable-password-based-authentication-for-ssh-access-to-server/
+11.	https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html#intro-inventory
+12.	Permanent bashrc: https://stackoverflow.com/a/38094841
+13.	Copy Git File:  https://stackoverflow.com/a/65446645
+14.	https://stackoverflow.com/questions/24588742/java-8-application-on-ec2
+
+
+
+URLS:
+
+1.	https://nozaki.me/roller/kyle/entry/articles-jenkins-sshdeploy
+2.	https://linuxtechlab.com/how-to-easily-add-ssh-credentials-on-jenkins-server/
+3.	
+4.	https://www.tecmint.com/run-sudo-command-without-password-linux/
+5.	https://www.e2enetworks.com/help/knowledge-base/how-to-enable-disable-password-based-authentication-for-ssh-access-to-server/
+6.	https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html#intro-inventory
+7.	Permanent bashrc: https://stackoverflow.com/a/38094841
+8.	Copy Git File:  https://stackoverflow.com/a/65446645
+9.	https://stackoverflow.com/questions/24588742/java-8-application-on-ec2
 
 
 

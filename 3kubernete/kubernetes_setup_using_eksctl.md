@@ -79,24 +79,26 @@ You can follow same procedure in the official  AWS document [Getting started wit
    ```
 
 1. Deploying Nginx Container  
-   a. First create a deployment in which we will create two replicas(pods) to make sure it is avalible all the time.   
-   b. To access application create a servive by using expose cmd.  
-   c. Throuh the service we can access and type we are using is ELB in front of those 2 containers and allow us to publicly access them.   
+   a. First create a deployment in which we will create two replicas(pods) to make sure it is available all the time.   
+   b. To access application publicly create a servive by using `expose` cmd.  
+   c. Through the service we can access and this will create an ELB in front of those 2 containers    
     ```sh
-    kubectl create deployment  demo-nginx --image=nginx --replicas=2 --port=80
-    # kubectl deployment regapp --image=valaxy/regapp --replicas=2 --port=8080
-    kubectl get deployment # gives list of deployments
-    kubectl get replicaset # gives number of replicaset
-   kubectl get pod
-   kubectl get all
-   
-   kubectl expose deployment demo-nginx --port=80 --type=LoadBalancer
-   # kubectl expose deployment regapp --port=8080 --type=LoadBalancer
-   kubectl get services -o wide
-   kubectl get all
+      kubectl create deployment  demo-nginx --image=nginx --replicas=2 --port=80
+      kubectl expose deployment demo-ngnix --port=80 --type=LoadBalancer
 
-   kubectl delete deployment demo-nginx
-   kubectl delete service/demo-nginx
+      kubectl get deployment # gives list of deployments
+      kubectl get replicaset # gives number of replicaset
+      kubectl get pod
+      kubectl get all
+      
+      kubectl expose deployment demo-nginx --port=80 --type=LoadBalancer
+      # kubectl expose deployment regapp --port=8080 --type=LoadBalancer
+      kubectl get services -o wide
+      kubectl get all
+
+      kubectl delete pod demo-nginx
+      kubectl delete deployment demo-nginx
+      kubectl delete service/demo-nginx
    ```
 
 1. We should use manifest files whenever create kube containers   
@@ -106,6 +108,8 @@ You can follow same procedure in the official  AWS document [Getting started wit
    ```sh
    kubectl apply -f demo1pod.yml
    kubectl apply -f demo1service.yml
+   
+   kubectl describe service/demo-service
    ```
 
 1.
