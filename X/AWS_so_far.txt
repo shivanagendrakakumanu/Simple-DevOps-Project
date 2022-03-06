@@ -73,4 +73,3 @@ Simple Queue Service(no-practical)
 -	VisibilityTimeOut will take care if msg is processed or not messages are stored in Standard Queue or FirstInFirstOut order.
 Simple Email Service(no-practical)
 -	used to send and receive email for marketing, notification,and transactional email
-
