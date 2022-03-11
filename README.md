@@ -1,9 +1,8 @@
 # Devops
 `Jenkins, Git, BashScripting, Terraform, Docker, Ansible, Kubernetes`
 # AmazonWebServices
-`EC2, EBS, EFS, S3, IAM, ASG, LB/ELB, VPC, R53, EC, SNS, SNS, Cloudfront, RDS, DynamoDB, Lambda`
+`EC2, EBS, EFS, S3, IAM, ASG, LB/ELB, VPC, R53, EC, SNS, SNS, Cloudfront, RDS, DynamoDB, Lambda, Cloud Watch, Cloud Formation`
 # Projects
- 
 1. Project - an hello world code to be build with java
 1. Project - with Jenkins to publish over container to host server
 1. Project - with Docker 
@@ -102,6 +101,8 @@ URLS:
 13.	Copy Git File:  https://stackoverflow.com/a/65446645
 14.	https://stackoverflow.com/questions/24588742/java-8-application-on-ec2
 1. https://www.hireitpeople.com/
+1. https://arc.dev/remote-jobs/devops
+1. https://github.com/bregman-arie/devops-exercises
 
 
 URLS:
