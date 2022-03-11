@@ -1,7 +1,7 @@
 # Devops
 `Jenkins, Git, BashScripting, Terraform, Docker, Ansible, Kubernetes`
 # AmazonWebServices
-`EC2, EBS, EFS, S3, IAM, ASG, LB/ELB, VPC, R53, EC, SNS, SNS, Cloudfront, RDS, DynamoDB, Lambda`
+`EC2, EBS, EFS, S3, IAM, ASG, LB/ELB, VPC, R53, EC, SNS, SNS, Cloudfront, RDS, DynamoDB, Lambda, Cloud Watch, Cloud Formation`
 # Projects
  
 1. Project - an hello world code to be build with java
