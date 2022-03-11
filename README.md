@@ -1,4 +1,8 @@
-# DevOps Project CI/CD
+# Devops
+`Jenkins, Git, BashScripting, Terraform, Docker, Ansible, Kubernetes`
+# AmazonWebServices
+`EC2, EBS, EFS, S3, IAM, ASG, LB/ELB, VPC, R53, EC, SNS, SNS, Cloudfront, RDS, DynamoDB, Lambda`
+# Projects
  
 1. Project - an hello world code to be build with java
 1. Project - with Jenkins to publish over container to host server
@@ -15,8 +19,6 @@
 [![Image](devops1.jpg "DevOps Project 1")] <br><br>
 [![Image](devops2.jpg "DevOps Project 2")] <br><br>
 
-# AmazonWebServices
-`EC2, EBS, EFS, S3, IAM, ASG, LB/ELB, VPC, R53, EC, SNS, SNS`
 ## Project - an hello world code to be build with java via jenkins    
   - Install git `yum install git -y`  
   - Install Jenkins, choose redhat: https://pkg.jenkins.io/redhat-stable/
@@ -99,7 +101,7 @@ URLS:
 12.	Permanent bashrc: https://stackoverflow.com/a/38094841
 13.	Copy Git File:  https://stackoverflow.com/a/65446645
 14.	https://stackoverflow.com/questions/24588742/java-8-application-on-ec2
-
+1. https://www.hireitpeople.com/
 
 
 URLS:
