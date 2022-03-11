@@ -46,3 +46,4 @@
 # var="Hello World"
 # echo $var
 # echo "---------"
+sh git clone "https://github.com/shivanagendrakakumanu/docs.git"

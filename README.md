@@ -15,6 +15,8 @@
 [![Image](devops1.jpg "DevOps Project 1")] <br><br>
 [![Image](devops2.jpg "DevOps Project 2")] <br><br>
 
+# AmazonWebServices
+`EC2, EBS, EFS, S3, IAM, ASG, LB/ELB, VPC, R53, EC, SNS, SNS`
 ## Project - an hello world code to be build with java via jenkins    
   - Install git `yum install git -y`  
   - Install Jenkins, choose redhat: https://pkg.jenkins.io/redhat-stable/
