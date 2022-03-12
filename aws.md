@@ -1,4 +1,4 @@
-Total of 18 services:
+# 35 classes and services:
 1. Amazon S3
 1. Amazon EC2
 1. Amazon Elastic Block Store (Amazon EBS)
