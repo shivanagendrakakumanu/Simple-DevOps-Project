@@ -75,6 +75,7 @@ AWS services and features
 
 ```
 Intro to AWS and Cloud : 1-3
+Intro Linux and apache server
 Snow	: 21
 IAM 	: 04
 S3 		: 05
@@ -97,4 +98,6 @@ Formatn	: 18
 
 Done:       21, 1-14,18, 19(CFront), 16(lambda)
 Pending:    15,16,17,19,20,22(12hrs)
+63 services should be known to SAA
+
 ```

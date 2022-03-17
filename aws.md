@@ -1,28 +1,48 @@
-1. Intro to Cloud
-1. Intro to AWS
-1. Amazon Snow Family
-1. AWS Identity and Access Management (IAM)
-1. Amazon S3
-1. Amazon EC2 and CLI
-1. Amazon Elastic Block Store (Amazon EBS)
-1. Amazon Elastic File System (Amazon EFS)
-1. Elastic Load Balancing
-1. Amazon CloudWatch
-1. AWS Auto Scaling
-1. Amazon RDS
-1. Amazon CloudFront
-1. Amazon VPC (and associated features)
-1. Amazon Route 53
-1. Amazon Simple Notification Service (Amazon SNS)
-1. Amazon Simple Queue Service (Amazon SQS)
-1. AWS Lambda
-1. AWS Elastic Beanstalk
-1. AWS CloudFormation
+Snow	: 21
+IAM 	: 04
+S3 		: 05
+EC2 	: 06
+EBS		: 07
+EFS		: 07
+ELB		: 11
+Watch	: 12
+ASG-EC2 : 13
+RDS		: 08
+CFront	: 19
+VPC		: 09
+R53		: 10
+SQS		: 14
+SNS		: 14
+Lambda	: 16
+Beansta	: 18
+Formatn	: 18
 
 # 35 classes and 18 AWS services with LAB:
+- Intro to Cloud
+- Intro Linux and apache server
+- Intro to AWS and AWS Services:
+    1. Amazon Snow Family
+    1. AWS Identity and Access Management (IAM)
+    1. Amazon S3
+    1. Amazon EC2 and CLI
+    1. Amazon Elastic Block Store (Amazon EBS)
+    1. Amazon Elastic File System (Amazon EFS)
+    1. Elastic Load Balancing
+    1. Amazon CloudWatch
+    1. AWS Auto Scaling
+    1. Amazon RDS
+    1. Amazon CloudFront
+    1. Amazon VPC (and associated features)
+    1. Amazon Route 53
+    1. Amazon Simple Notification Service (Amazon SNS)
+    1. Amazon Simple Queue Service (Amazon SQS)
+    1. AWS Lambda
+    1. AWS Elastic Beanstalk
+    1. AWS CloudFormation
+- Project 1 involves EC2 and Well Architecture FrameWork
+- Project 2 involves VPC and CloudFormation
 
-```63 services should be known to SAA```
-
+#
 1. Amazon EC2 and CLI
     - EC2Basics
     - Amazon Machine Images(AMIs)
