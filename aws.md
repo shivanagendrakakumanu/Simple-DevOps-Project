@@ -1,22 +1,98 @@
-# 35 classes and services:
+1. Intro to Cloud
+1. Intro to AWS
+1. Amazon Snow Family
+1. AWS Identity and Access Management (IAM)
 1. Amazon S3
-1. Amazon EC2
+1. Amazon EC2 and CLI
 1. Amazon Elastic Block Store (Amazon EBS)
 1. Amazon Elastic File System (Amazon EFS)
 1. Elastic Load Balancing
-1. AWS Auto Scaling
 1. Amazon CloudWatch
-1. AWS CloudFormation
-1. AWS Identity and Access Management (IAM)
+1. AWS Auto Scaling
+1. Amazon RDS
+1. Amazon CloudFront
 1. Amazon VPC (and associated features)
 1. Amazon Route 53
 1. Amazon Simple Notification Service (Amazon SNS)
-1. Amazon CloudFront
-1. Amazon RDS
+1. Amazon Simple Queue Service (Amazon SQS)
 1. AWS Lambda
 1. AWS Elastic Beanstalk
-1. AWS CLI
-# 
+1. AWS CloudFormation
+
+# 35 classes and 18 AWS services with LAB:
+
+```63 services should be known to SAA```
+
+1. Amazon EC2 and CLI
+    - EC2Basics
+    - Amazon Machine Images(AMIs)
+    - What is AMI
+    - Choosing & Working with AMIs
+    - Creating your own AMI/Registering your own AMI
+    - Sharing/Copying AMI to other AWS accounts
+    - Instance Types
+    - On-demand  instances, Spot  instances, Reserved instances
+    - Elastic Block Store (EBS)
+    - Creating and deleting volumes             
+    - Attaching and detaching volumes
+    - Mounting and Unmounting the attached volume
+    - Creating snapshots & Usage of snapshots
+    - Increasing the volume size
+    - Security Groups
+    - IP Addressing
+    - Launching and Using an EC2 instance (Windows instance & Linux Instance)
+    - EC2 Bootstrapping, User Data, and Meta Data
+    - Key pair and connecting to an EC2 via SSH & RDP
+    - EC2 Placement Groups
+1. Amazon Elastic Block Store (Amazon EBS)
+1. Amazon Elastic File System (Amazon EFS)
+1. Amazon VPC (and associated features)
+    - VPC Basics
+    - Internet Gateways (IGW)
+    - Route Tables (RTs)
+    - Network Access Control List (NACLs)
+    - Subnets
+    - Availability Zones (VPC Specific)
+    - LAB:
+        - Creating a custom VPC
+        - Setting up internet access for virtual machines
+        - Create Route Table, NACL, Subnets and connect them
+1. Amazon Route 53
+    - Route 53 Basics
+    - Route 53 Definition
+    - DNS servers
+    - Understanding how web servers are located
+    - Registering a Web Domain
+    - Configuring Route 53 to use a domain
+1. Elastic Load Balancing
+    - Introduction to Elastic Load Balancing
+    - Benefits and ELB Use Cases
+    - Pricing/Cost Overview
+    - ELB Security
+    - Communication Protocols
+    - LAB:
+    - Create a Classic ELB
+        - Adding Instances to ELB
+        - Experience the traffic balanced by ELB in Realtime.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 1. Introduction to Cloud Computing
     - Why Cloud Computing
     - What is Cloud Computing
@@ -43,6 +119,7 @@
     - Subscription to AWS
     - AWS Free tier – Limits and usage
     - Introduction to the AWS Management Console
+1. Cloud Watch Create a Alaram to email
 1. Simple Storage Service (S3)
     - S3 Basics
     - Buckets and Objects
@@ -50,46 +127,27 @@
     - Object Lifecycles Management
     - Permissions & Object Versioning
     - Static Web Hosting with S3 Bucket
-    - Transit Services
-    - Snowball
     - LAB:
         - Creating and Deleting buckets
         - Adding objects to buckets
         - Getting & Deleting objects
+        - Making the buckets and objects to be public
+        - Adding security to objects
+        - Versioning the buckets
+        - Delete marker to restore the versioning
+        - Create a LifeCycle Management
+        - Cross Replication buckets
         - Create a Static website using S3.
-1. Amazon EC2 Instance – Concept & LAB
-    - EC2Basics
-    - Amazon Machine Images(AMIs)
-    - What is AMI
-    - Choosing & Working with AMIs
-    - Creating your own AMI/Registering your own AMI
-    - Sharing/Copying AMI to other AWS accounts
-    - Instance Types
-    - On-demand  instances, Spot  instances, Reserved instances
-    - Elastic Block Store (EBS)
-    - Creating and deleting volumes             
-    - Attaching and detaching volumes
-    - Mounting and Unmounting the attached volume
-    - Creating snapshots & Usage of snapshots
-    - Increasing the volume size
-    - Security Groups
-    - IP Addressing
-    - Launching and Using an EC2 instance (Windows instance & Linux Instance)
-    - EC2 Bootstrapping, User Data, and Meta Data
-    - Key pair and connecting to an EC2 via SSH & RDP
-    - EC2 Placement Groups
-- Amazon EBS
-- Amazon EFS
-1. ELASTIC LOAD BALANCER(ELB)
-    - Introduction to Elastic Load Balancing
-    - Benefits and ELB Use Cases
-    - Pricing/Cost Overview
-    - ELB Security
-    - Communication Protocols
+1. Amazon CloudFront
+    - What is Cloud Front
+    - Edge Location, Distribution, Origin, CDN
+    - Invalidations
     - LAB:
-    - Create a Classic ELB
-        - Adding Instances to ELB
-        - Experience the traffic balanced by ELB in Realtime.
+        - Create Distribution
+        - Attach CF to S3
+1. AWS Snowball
+    - What is Snowball
+    - How to use snowball and small LAB demo
 1. AUTO SCALING
     - What is Autoscaling?
     - Conceptual overview of Auto Scaling
@@ -125,24 +183,6 @@
         - Creating an IAM Group
         - Creating an IAM Role & connecting via AWS CLI
         - Creation of Custom Policies
-1. Virtual Private Cloud (VPC)
-    - VPC Basics
-    - Internet Gateways (IGW)
-    - Route Tables (RTs)
-    - Network Access Control List (NACLs)
-    - Subnets
-    - Availability Zones (VPC Specific)
-    - LAB:
-        - Creating a custom VPC
-        - Setting up internet access for virtual machines
-        - Create Route Table, NACL, Subnets and connect them
-1. Route 53
-    - Route 53 Basics
-    - Route 53 Definition
-    - DNS servers
-    - Understanding how web servers are located
-    - Registering a Web Domain
-    - Configuring Route 53 to use a domain
 1. SIMPLE NOTIFICATION SERVICE(SNS)
     - SNS Components & Usage
     - LAB:

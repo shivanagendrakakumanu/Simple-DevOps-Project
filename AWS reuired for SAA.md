@@ -11,7 +11,7 @@ AWS services and features
     - Cost Explorer
 - Application Integration:
     - `Amazon Simple Notification Service (Amazon SNS)`
-    - Amazon Simple Queue Service (Amazon SQS)
+    - `Amazon Simple Queue Service (Amazon SQS)`
 - Compute:
     - `Amazon EC2`
     - `AWS Elastic Beanstalk`
@@ -43,7 +43,7 @@ AWS services and features
     - AWS DataSync
     - AWS Migration Hub
     - AWS Server Migration Service (AWS SMS)
-    - AWS Snowball
+    - `AWS Snowball`
     - AWS Transfer Family
 - Networking and Content Delivery:
     - Amazon API Gateway
@@ -72,3 +72,29 @@ AWS services and features
     - `Amazon S3`
     - Amazon S3 Glacier
     - AWS Storage Gateway
+
+```
+Intro to AWS and Cloud : 1-3
+Snow	: 21
+IAM 	: 04
+S3 		: 05
+EC2 	: 06
+EBS		: 07
+EFS		: 07
+ELB		: 11
+Watch	: 12
+ASG-EC2 : 13
+RDS		: 08
+CFront	: 19
+VPC		: 09
+R53		: 10
+SQS		: 14
+SNS		: 14
+Lambda	: 16
+Beansta	: 18
+Formatn	: 18
+
+
+Done:       21, 1-14,18, 19(CFront), 16(lambda)
+Pending:    15,16,17,19,20,22(12hrs)
+```
