@@ -95,9 +95,31 @@ Lambda	: 16
 Beansta	: 18
 Formatn	: 18
 
-
 Done:       21, 1-14,18, 19(CFront), 16(lambda)
-Pending:    15,16,17,19,20,22(12hrs)
+Pending:    15,16,17,19,20,22(12hrs)  
 63 services should be known to SAA
-
 ```
+
+
+09,12  Lunch
+8,13  later
+22(04:40)
+
+
+
+
+Responsibilities
+Scripting in bash/python
+Configuring linux based systems
+Setting up critical infrastructure manually or by automation
+Working on tooling like Jenkins, azure devops, jira etc
+Automating clusters on prem and in cloud
+Solving infrastructure related problems at scale.
+
+Qualifications
+Strong linux skills and scripting skills on bash, python.
+Strong fundamentals in Networking and Operating Systems.
+Ability to debug OS level and network level issues
+Familiarity with Jenkins, Azure Devops or any other CI/CD tool.
+Experience in docker, Kubernetes, helm charts.
+3+ years of experience working as a devops  engineer/SRE
