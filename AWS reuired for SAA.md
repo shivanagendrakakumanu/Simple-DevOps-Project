@@ -106,20 +106,8 @@ Pending:    15,16,17,19,20,22(12hrs)
 22(04:40)
 
 
+Topics:
+Learn roles all scenarios plus STS(https://learn.acloud.guru/handson/606718a0-c9d0-4fda-af49-878d6f2d2a1f/course/certified-solutions-architect-associate)
 
 
-Responsibilities
-Scripting in bash/python
-Configuring linux based systems
-Setting up critical infrastructure manually or by automation
-Working on tooling like Jenkins, azure devops, jira etc
-Automating clusters on prem and in cloud
-Solving infrastructure related problems at scale.
 
-Qualifications
-Strong linux skills and scripting skills on bash, python.
-Strong fundamentals in Networking and Operating Systems.
-Ability to debug OS level and network level issues
-Familiarity with Jenkins, Azure Devops or any other CI/CD tool.
-Experience in docker, Kubernetes, helm charts.
-3+ years of experience working as a devops  engineer/SRE
